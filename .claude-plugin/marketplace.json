@@ -1,0 +1,13 @@
+{
+  "name": "claude-smart-prompt",
+  "owner": {
+    "name": "Samuel Lin"
+  },
+  "plugins": [
+    {
+      "name": "smart-prompt",
+      "source": "./",
+      "description": "Rewrite the prompt box into a clearer, agent-ready prompt in one click. The mode follows your model (Fable/Opus → Light, Sonnet → Standard, Haiku → Detailed); the latest Opus at low effort does the rewriting. Revert, Retry, Iterate, follow-up questions and next-step suggestions."
+    }
+  ]
+}
